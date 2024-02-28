@@ -1,13 +1,18 @@
 # First configurations
 
 ## Criando e ativando o ambiente virtual
-### Windows:
+
+### **Windows:**
+```bash
 python -m venv chatbot
 chatbot\Scripts\activate
+```
 
-### Mac/Linux:
+### **Mac/Linux:**
+```bash
 python3 -m venv chatbot
 source chatbot/bin/activate
+```
 
 ---
 
