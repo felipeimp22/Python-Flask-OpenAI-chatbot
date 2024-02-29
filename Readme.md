@@ -23,6 +23,9 @@ pip install numpy openai python-dotenv tiktoken flask opencv-python uuid
 
 pip install -U flask-cors
 
+ou installe tudo com :
+pip install -r requirements.txt
+
 ---
 
 ### Ative o ambiente virtual criado do diretório .venv
@@ -41,5 +44,8 @@ necessario instalar o freeze
 pip install freeze
 
 pip freeze > requirements.txt
+
+npm i -g vercel
+vercel --prod
 
 
