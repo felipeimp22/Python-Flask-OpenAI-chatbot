@@ -5,9 +5,9 @@
 ### **Windows:**
 ```bash
 python -m venv chatbot
-python -m venv venv
-
 chatbot\Scripts\activate
+or
+python -m venv venv
 venv\Scripts\activate
 
 venv\scripts\activate
@@ -33,6 +33,8 @@ Caso instale sem rodar o comando: chatbot\Scripts\activate voce ira instalar for
 pip install numpy openai python-dotenv tiktoken flask opencv-python uuid
 
 pip install -U flask-cors
+
+pip install numpy openai python-dotenv tiktoken flask opencv-python uuid flask-cors
 
 ou installe tudo com :
 pip install -r requirements.txt

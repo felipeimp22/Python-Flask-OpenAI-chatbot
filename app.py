@@ -15,7 +15,7 @@ app = Flask(__name__)
 app.secret_key = "myChatBot"
 CORS(app)
 
-contexto = carrega("../dados/globo.txt")
+contexto = carrega("dados/globo.txt")
 
 def bot(prompt):
     maximo_tentativas = 1
