@@ -64,7 +64,6 @@ def chat():
     text_response = resposta.choices[0].message.content
     return text_response
 
-
 @app.route("/")
 def home():
     return render_template("index.html")
