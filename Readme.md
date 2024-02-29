@@ -21,6 +21,8 @@ Caso instale sem rodar o comando: chatbot\Scripts\activate voce ira instalar for
 
 pip install numpy openai python-dotenv tiktoken flask opencv-python uuid
 
+pip install -U flask-cors
+
 ---
 
 ### Ative o ambiente virtual criado do diretório .venv
