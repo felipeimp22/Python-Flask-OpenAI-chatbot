@@ -5,13 +5,24 @@
 ### **Windows:**
 ```bash
 python -m venv chatbot
+python -m venv venv
+
 chatbot\Scripts\activate
+venv\Scripts\activate
+
+venv\scripts\activate
+
+
 ```
 
 ### **Mac/Linux:**
 ```bash
 python3 -m venv chatbot
 source chatbot/bin/activate
+
+or
+source venv/bin/activate
+
 ```
 
 ---
@@ -46,6 +57,8 @@ pip install freeze
 pip freeze > requirements.txt
 
 npm i -g vercel
+vercel
+or
 vercel --prod
 
 
